@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>تسک دوره جاوااسکریپت</title>
+  <link rel="stylesheet" href="./styles/index.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="heder">
+      <h1>لیست تراکنش ها</h1>
+      <div class="searchbox hidden">
+        <span class="icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </span>
+        <input class="inputSearch" type="text" name="" id="">
+      </div>
+    </div>
+    <div class="loading">
+      <button class="btnlod">بارگذاری تراکنش ها</button>
+    </div>
+    <div class="tablebox hidden">
+      <h2>تراکنشهای شما </h2>
+      <table class="tableitem">
+        <tr>
+          <th>ردیف</th>
+          <th>نوع تراکنش</th>
+          <th>
+            <span >مبلغ</span>
+            <span class=""><i class="chevronprice fa-solid fa-chevron-down"></i></span>
+          </th>
+          <th>شماره پیگیری</th>
+          <th>
+            <span>تاریخ تراکنشها</span>
+            <span class=""><i class="chevrondate fa-solid fa-chevron-down"></i></span>
+          </th>
+        </tr>
+        <tbody class="tabody">
+          <!-- <tr>
+            <td>1</td>
+            <td>موفق</td>
+            <td>10000</td>
+            <td>85642</td>
+            <td>1403/06/29</td>
+          </tr> -->
+        </tbody>
+
+      </table>
+    </div>
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+  <script src="./js/index.js"></script>
+  <script src="https://kit.fontawesome.com/545a9c4996.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
